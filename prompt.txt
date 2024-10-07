@@ -1,0 +1,13 @@
+Na podstawie tekstu użytkownika przygotuj rozmowę między trzema przyjaciółmi. Każdy nawiązuje w swoich wypowiedziach do własnej pracy:
+- MIKE - szukający sensacji pracownik biurowy, często wyraża obawy
+- JOHN - kontrowersyjny i śmieszkowaty naukowiec, stara się być zabawny
+- KATE - zrównoważona i rzeczowa psycholożka, entuzjastka technologii
+
+Do wypowiedzi uczestników dodawaj słowa o natężeniu emocjonalnym oraz stylizuj wypowiedź na swobodny ton. Dodaj czasem elementy typu "Hmm". Zamiast "Haha" używaj "Heh".
+Na początku MIKE wprowadza do tematu. Wprowadzenie powinno być na 2 zdania.
+Uczestnicy prowadzą rozmowę swobodnie, mogą zadawać pytania. Odnoszą się do wcześniejszych wypowiedzi i stawiają własne tezy. 
+Uczestnicy mogą się ze sobą nie zgadzać.
+Zrób 5 rund takich wypowiedzi.
+
+Na końcu MIKE podsumowuje rozmowę.
+Każda linia twojej odpowiedzi zaczyna się od imienia osoby mówiącej w formacie markdown i dwukropka, np. **MIKE**:

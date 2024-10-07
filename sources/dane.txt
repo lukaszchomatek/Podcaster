@@ -1,0 +1,22 @@
+Czy dwa tysiące dolarów miesięcznie za dostęp do modelu AI to dużo czy mało?
+
+Plotki dotyczące nowej ofery OpenAI są w pewnym sensie zaskakujące - dostęp do ich modeli przez aplikację ChatGPT był do tej pory 100 razy tańszy. Lub nawet darmowy.
+
+Czy AI będzie "dla wybranych"? TL;DR: Już jest.⬇️
+Prof. Pedro Domingos zauważył celnie, że AI za 20 dolarów miesięcznie to nie jest żadne AGI. To w takim razie ile kosztuje takie AI, które "robi coś trudnego"?
+Cytuj
+Pedro Domingos
+@pmddomingos
+·
+17 lip
+AI that costs $20/month is very, very far from AGI.
+Przykłady pokazało np. Google/DeepMind. Nie chodzi mi oczywiście o dostęp do modeli generatywnych Gemini Advanced przez przeglądarkę, bo w promocji można mieć ten dostęp za kilkadziesiąt złotych miesięcznie.
+To gdzie są te wysokie ceny?
+
+W rozwiązaniach, które rozwiązują bardzo specyficzne i trudne problemy. Przykład? AlphaGeometry. To jest model, który łączy obliczenia symboliczne z modelem generatywnym i służy do skutecznego rozwiązywania zadań na poziomie olimpiady matematycznej.
+Ile kosztuje rozwiązywanie takich problemów, jeśli już mamy "zrobiony" ten model?
+
+Np. 4 karty V100 + kilkadziesiąt CPU pracujące przez 1.5 godziny. to koszt kilkunastu-kilkudziesięciu dolarów za pojedyncze użycie. Pod warunkiem, że będziemy mieli dostęp do takiego modelu.
+No to może chcemy rozwiązać jakiś problem z matematyki? Proszę bardzo, jest do tego model FunSearch od Google, gdzie pojedyncza partia obliczeń będzie stanowić koszt rzędu 1000$.
+Na co należy zwrócić uwagę? Te "drogie" w użyciu modele mogą podejmować się rozwiązywania bardzo szczególnych problemów i obecnie jest tak, że do każdego z tych problemów został wytworzony dedykowany model.
+Podsumowując: koszt modelu AI składa się bardzo wielu czynników (trzeba go wymyślić, zebrać dane, wytrenować, przetestować). Dodatkowo, w przypadku, gdy rozwiązanie problemu stawianemu modelowi wymaga weryfikacji - zaczynają się schody. Do weryfikacji potrzebujemy dodatkowych zasobów obliczeniowych, na których będzie ona prowadzona. Obecny stan wiedzy w tym zakresie pozwala na budowanie modeli, które opierają swoje działanie na tym, że budowana jest pewna (stosunkowo duża) liczba rozwiązań kandydujących, które są następnie weryfikowane. Konieczność weryfikacji tych rozwiązań wpływa na koszt i czas obliczeń.
