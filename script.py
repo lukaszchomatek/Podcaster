@@ -53,7 +53,7 @@ def read_all_files_from_sources():
 def read_prompt():
     return read_txt_file('prompt.txt')
 
-def get_script(text_content, prompt, api_key_from_file):
+def get_script(text_content_for_script, prompt, api_key_from_file):
     client = OpenAI(api_key=api_key_from_file)
     response = client.chat.completions.create(
         #feel free to use gtp-4o-mini for English podcasts
@@ -73,7 +73,7 @@ def get_script(text_content, prompt, api_key_from_file):
                 "content": [
                     {
                         "type": "text",
-                        "text": text_content
+                        "text": text_content_for_script
                     }
                 ]
             }
